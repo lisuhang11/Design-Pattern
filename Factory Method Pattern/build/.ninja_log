@@ -1,0 +1,7 @@
+# ninja log v6
+90	976	7717473742728710	CMakeFiles/FactoryMethodPattern.dir/factory/ElfBlacksmith.cpp.obj	95ee1b85daee58ac
+217	1081	7717473743989681	CMakeFiles/FactoryMethodPattern.dir/factory/OrcBlacksmith.cpp.obj	f59456800b34e8b7
+1	1084	7717473741835784	CMakeFiles/FactoryMethodPattern.dir/Client.cpp.obj	e557e91fe2309083
+343	1223	7717473745259079	CMakeFiles/FactoryMethodPattern.dir/product/ElfWeapon.cpp.obj	3f1b10e35d62aaa5
+461	1294	7717473746425473	CMakeFiles/FactoryMethodPattern.dir/product/OrcWeapon.cpp.obj	68b78bb78ba8175a
+1296	1676	7717473754771634	FactoryMethodPattern.exe	80e05f6d7964ea90

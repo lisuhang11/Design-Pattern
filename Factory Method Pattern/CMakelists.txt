@@ -1,0 +1,29 @@
+# 设置Cmake最低版本要求
+cmake_minimum_required(VERSION 3.10)
+
+# 设置项目名称
+project(FactoryMethodPattern)
+
+# 设置c++标准
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# 包含头文件目录
+include_directories(
+    factory
+    product
+)
+
+# 收集源文件
+set(SOURCES
+    Client.cpp
+    factory/ElfBlacksmith.cpp
+    factory/OrcBlacksmith.cpp
+    product/ElfWeapon.cpp
+    product/OrcWeapon.cpp
+)
+
+# 添加编译选项以设置编码
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -finput-charset=UTF-8 -fexec-charset=GBK")
+# 添加可执行文件
+add_executable(${PROJECT_NAME} ${SOURCES})
