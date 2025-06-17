@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.10)
+project(AbstractFactoryPattern)
+
+# 设置c++标准
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -finput-charset=UTF-8 -fexec-charset=GBK")
+# 包含头文件目录
+include_directories(
+    ${PROJECT_SOURCE_DIR}/factory
+    ${PROJECT_SOURCE_DIR}/product
+)
+
+# 指定源文件
+set(SOURCES
+    Client.cpp
+    factory/ElfKingdomFactory.cpp
+    factory/OrcKingdomFactory.cpp
+    product/ElfKingdom.cpp
+    product/OrcKingdom.cpp
+)
+
+# 添加可执行文件
+add_executable(${PROJECT_NAME} ${SOURCES})

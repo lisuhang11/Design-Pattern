@@ -1,0 +1,7 @@
+# ninja log v6
+2	1723	7717614292048823	CMakeFiles/AbstractFactoryPattern.dir/Client.cpp.obj	5333ade33a5421ec
+192	1728	7717614293965427	CMakeFiles/AbstractFactoryPattern.dir/factory/ElfKingdomFactory.cpp.obj	a9061e933d2e0110
+483	1926	7717614296872094	CMakeFiles/AbstractFactoryPattern.dir/factory/OrcKingdomFactory.cpp.obj	a021ceed7842d23f
+806	2103	7717614300117062	CMakeFiles/AbstractFactoryPattern.dir/product/ElfKingdom.cpp.obj	7ccf9c805607fcfb
+1238	2376	7717614304423880	CMakeFiles/AbstractFactoryPattern.dir/product/OrcKingdom.cpp.obj	7ddd902b85797ced
+2379	3113	7717614315817152	AbstractFactoryPattern.exe	141e4a0d92c7a296
