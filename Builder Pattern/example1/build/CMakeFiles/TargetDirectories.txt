@@ -1,0 +1,3 @@
+D:/Builder Pattern/example1/build/CMakeFiles/BuilderPattern.dir
+D:/Builder Pattern/example1/build/CMakeFiles/edit_cache.dir
+D:/Builder Pattern/example1/build/CMakeFiles/rebuild_cache.dir

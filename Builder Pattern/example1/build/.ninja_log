@@ -1,0 +1,8 @@
+# ninja log v6
+270	2533	7717879079512579	CMakeFiles/BuilderPattern.dir/builder/HumanBuilder.cpp.obj	20595a3ee33630ba
+433	2590	7717879081133913	CMakeFiles/BuilderPattern.dir/builder/BlackManBuilder.cpp.obj	aafc4ffb03bb608
+833	2610	7717879085138574	CMakeFiles/BuilderPattern.dir/builder/YellowManBuilder.cpp.obj	317e318e69060fc9
+1	2728	7717879076812045	CMakeFiles/BuilderPattern.dir/Client.cpp.obj	cbe5c29d4ea91293
+107	2739	7717879077868067	CMakeFiles/BuilderPattern.dir/HumanDirector.cpp.obj	d1f51abd27bbf3c1
+559	2764	7717879082404274	CMakeFiles/BuilderPattern.dir/builder/WhiteManBuilder.cpp.obj	e129b298866d470a
+2767	3226	7717879104459413	BuilderPattern.exe	c26e2c46382543be

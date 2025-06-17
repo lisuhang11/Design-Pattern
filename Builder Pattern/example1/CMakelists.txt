@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(BuilderPattern)
+
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -finput-charset=UTF-8 -fexec-charset=GBK")
+# 包含头文件目录
+include_directories(
+    .
+    builder
+)
+
+# 收集源文件
+set(SOURCES
+    Client.cpp
+    HumanDirector.cpp
+    builder/HumanBuilder.cpp
+    builder/BlackManBuilder.cpp
+    builder/WhiteManBuilder.cpp
+    builder/YellowManBuilder.cpp
+)
+
+add_executable(${PROJECT_NAME} ${SOURCES})
